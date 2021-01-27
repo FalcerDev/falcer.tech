@@ -4,7 +4,7 @@ import { parseISO, format } from "date-fns";
 import Container from "@/components/Container";
 
 const editUrl = (slug: string) =>
-  `https://github.com/FalcerDev/falcer.tech/edit/master/data/blog/${slug}.mdx`;
+  `https://github.com/FalcerDev/falcer.tech/edit/main/mdx/blog/${slug}.mdx`;
 
 export default function BlogLayout({ children, frontMatter }) {
   return (
